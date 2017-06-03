@@ -1,0 +1,11 @@
+<ion-view view-title="Countries">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="country in countries" type="item-text-wrap" href="#/countries/{{country}}/cities">
+        <!--<img ng-src="{{country.icon}}"> -->
+        <h2>{{country}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
